@@ -124,8 +124,8 @@
   }
   /*Contenedor de Course*/
 .img-course img {
-  width: 250px; 
-  border-radius: 40px;
+  width: 150px; 
+  border-radius: 20px;
   border: solid 2px #40d9ff;
 }
 
