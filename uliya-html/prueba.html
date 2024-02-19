@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <style>
+
+@media (min-width: 320px ) {
+  .login-crm {
+    margin: 150px;
+    
+  }
+
+
+
+  /*Contenedor de Course*/
+.img-course img {
+  width: 150px; 
+  border-radius: 20px;
+  border: solid 2px #40d9ff;
+}
+
+}
+
+@media (max-width: 1200px) {
+    .login-crm {
+    margin: 10px;
+  }
+  .img-login {
+    display: none;
+  }
+
+  body{
+    padding-top: 10%;
+    padding-bottom: 50%;
+
+  }
+  .screen__background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-clip-path: inset(0 0 0 0);
+        clip-path: inset(0 0 0 0);
+    }
+    
+    .screen__background__shape {
+        transform: rotate(45deg);
+        position: absolute;
+    }
+    
+    .screen__background__shape3 {
+        height: 540px;
+        width: 190px;
+        background: linear-gradient(170deg, #a1d0f7c4, #bce5f794 );
+        top: -24px;
+        right: 0;
+        border-radius: 32px;
+        
+    }
+  
+}
+
+
+
+        body {
+            background-image: url(https://images.squarespace-cdn.com/content/v1/615be2c9cab31a4b81c40260/b4d0665e-c2a8-42d7-8595-1d8d24838271/LIGHT+-+BG2.jpg);
+            background-repeat: no-repeat;
+            object-position: 100%;
+            background-size: cover;
+            width: 100%;
+        }
+
+        .login__input {
+            border: none;
+            border-bottom: 2px solid #535353;
+            background: none;
+            width: auto;
+            margin: 40px auto;
+            font-weight: 700;
+            transition: .2s;
+        }
+
+        .login__input::placeholder{
+            background-color: #d3e9ff96;
+        }
+
+        .login__input::-webkit-autofill,
+        .login__input:focus,
+        .login__input:hover {
+            outline: none;
+            border-bottom-color: #67769e;
+            background-color: #ffffff96;
+        }
+
+
+
+        .button {
+  position: relative;
+  overflow: hidden;
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 1.5rem;
+  background: #3d3a4e;
+  background-size: 400%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover::before {
+  transform: scaleX(1);
+}
+
+.button-content {
+  position: relative;
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  width: 100%;
+  height: inherit;
+  border-radius: inherit;
+  background: linear-gradient(
+    82.3deg,
+    rgb(93, 149, 233) 10.8%,
+    #83CAEC
+  );
+  transition: all 0.45s;
+}
+
+    </style>
+    <section class="login-crm">
+        <div class="container">
+            <div class="row" style="box-shadow: 0px 0px 24px #668aa7;  border-radius: 20px; ">
+                
+                <div class="col align-self-center " style="height: 600px; background-color: #e1f3fb96; border-radius: 20px; z-index: 100;">
+                    <form class="text-center" style="padding-top: 10px;">
+                        <i class="bi bi-person-circle" style="font-size: 100px;"></i>
+                        <h3>User - Login</h3>
+                        <div class="form-group justify-content-center text-center">
+                            <input type="text" class="login__input text-center" placeholder="User name"
+                                name="Usu_Nombre">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="login__input text-center" placeholder="Password"
+                                name="contraseña">
+                        </div>
+
+                        <button class="button">
+                            <span class="button-content">Ingresar</span>
+                          </button>
+                    </form>
+                </div>
+                <div class="col-4 img-login" style="background: #A1D9F3;
+                background:url(https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_1280.jpg);
+                background-position: -350px;
+                background-repeat: no-repeat;
+                object-position: 100%;
+                background-size: cover;
+                border-radius: 20px;">
+                <div class="col-4 align-self-end">
+                        <h3 class="text-center" style="top: 550px; position: relative; color: #fff; font-size: 20px;">CRM - GPH</h3>
+
+                </div>
+                 
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="screen__background">
+        <span class="screen__background__shape screen__background__shape3"></span>
+    </div>
+
+    <style>
+  
+    
+</style>
+
+
+
+</body>
+
+</html>

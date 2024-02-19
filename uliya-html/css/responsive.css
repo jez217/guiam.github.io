@@ -2,14 +2,27 @@
   .slider_section .carousel_btn-container {
     bottom: 0;
   }
+
   .img-course img {
-    width: 150px; 
+    width: 150px;
     border-radius: 30px;
     border: solid 2px #40d9ff;
 
   }
 
-  
+  .top-sectioni{
+    margin-top: 18%;
+  }
+
+  .main {
+    width: 170px;
+    bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  .keyboard {
+    left: 100%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -33,15 +46,14 @@
     width: 100%;
   }
 
-  
+
 }
 
 @media (max-width: 768px) {
   .hero_area {
     height: 94vh;
-    padding-top:97px;
-
-      background-image: url(../images/hero-bg.png);
+    padding-top: 97px;
+    background-image: url(../images/hero-bg.png);
   }
 
   .slider_section {
@@ -114,19 +126,20 @@
 
 @media (max-width: 360px) {
 
-
-
+  
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1170px;
   }
+
   /*Contenedor de Course*/
-.img-course img {
-  width: 150px; 
-  border-radius: 20px;
-  border: solid 2px #40d9ff;
-}
+  .img-course img {
+    width: 150px;
+    border-radius: 20px;
+    border: solid 2px #40d9ff;
+  }
+
 
 }

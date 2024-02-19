@@ -167,7 +167,8 @@ body {
 }
 
 .pricing1 .badge-inverse {
-  background-color: #3e4555;
+  background-color: #e2efff;
+  border: 1px solid #0db9c4;
 }
 
 .pricing1 .display-5 {
@@ -310,7 +311,7 @@ body {
 	background: #d4f0ff;
 	animation: morph 4s ease-in-out infinite;
 	border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-	height: 270px;
+	/*height: auto;*/
 	transition: all 1s ease-in-out;
 	width: 400px;
 	z-index: 1;
@@ -985,7 +986,7 @@ a:focus {
 
 .title-reservar h2{
    font-weight: bold;
-   z-index: 100;
+   z-index: 1;
    position: relative;
    text-transform: uppercase;
 }
