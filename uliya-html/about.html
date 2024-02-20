@@ -29,17 +29,19 @@
 
 <body class="sub_page">
 
+
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
-      <div class="container-fluid">
+      <div class=""
+        style="right:15%; left: 15%; top: 10px; position: fixed; display: block; background-color: #ffffff; z-index: 100; border-radius: 20px;">
         <div class="row">
-          <div class="col-lg-11 offset-lg-1">
+          <div class="col-lg-10 offset-lg-1">
             <nav class="navbar navbar-expand-lg custom_nav-container ">
               <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="">
-                <span>
-                  Uliya
+                <img src="images/Guian_negro.jpg" style="border-radius: 40px; width: 70px;" alt="">
+                <span style="color: black; font-size:14px;">
+                  Academy
                 </span>
               </a>
               </a>
@@ -49,19 +51,39 @@
               </button>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-                  <ul class="navbar-nav  ">
-                    <li class="nav-item ">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <div class="d-flex ml-auto flex-column flex-lg-row align-items-center ">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item active">
-                      <a class="nav-link" href="about.html"> About</a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Cursos</a>
+                      <div class="dropdown-menu">
+                        <div class="justify-content-center text-center">
+
+                          <a class="dropdown-item" href="piano.html">Piano</a>
+                          <a class="dropdown-item" href="drum.html">Drum</a>
+                          <a class="dropdown-item" href="guitar.html">Guitar</a>
+                          <a class="dropdown-item" href="">Canto</a>
+                          <a class="dropdown-item" href="">Bajo</a>
+                          <a class="dropdown-item" href="">Violin</a>
+
+                        </div>
+                        <p class="text-center" style="font-size: 12px;">Presenciales</p>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item  text-center" href="#">Cursos Virtuales</a>
+                      </div>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html"> Portfolio </a>
+                      <a class="nav-link" href="about.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact Us</a>
+                      <a class="nav-link" href="contact.html">Contactanos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.html"><button type="button" class="btn btn-info">Mi
+                          cuenta</button></a>
                     </li>
                   </ul>
                   <form class="form-inline">
@@ -80,39 +102,65 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section class="about_section mt-5">
     <div class="container">
       <div class="heading_container">
         <h2>
-          About Studio
-        </h2>
+          somos GUIAM!</h2>
       </div>
       <div class="box">
-        <div class="img-box">
-          <img src="images/about-img.jpg" alt="">
-          <div class="about_img-bg">
+        <div class="img-box text-center">
+          <img src="images/GUIAM-about.png" alt="">
+        <!--  <div class="about_img-bg">
             <img src="images/about-img-bg.png" alt="">
-          </div>
+          </div>-->
         </div>
         <div class="detail-box">
           <p>
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-            letters,
+         <b>La Academia de Música GUIAM</b> es un proyecto surgido en el 2021 en la República de Panamá, Panamá Oeste, en el
+            Coco de la Chorrera, como fundador el  <b>Lic. Jezreel Moreno</b>, músico empírico desde corta edad, apasionado en
+            crecer el talento de quienes lo desean y dar apoyo dentro de fundaciones y ministerios en el área Worship.
+            Ha trabajado con bandas y proyectos musicales profesionales como en distintos estudios musicales.
+          </p>
+          <p>
+            Como multi-instrumentista ha creado un método <b>GUIAM</b> (Guiando músicos a la excelencia) optimizado y sencillo
+            de entender para el desarrollo del aprendiz. Su propósito es brindar ayuda y desarrollo efectivo para que
+            jóvenes del sector crezcan como músicos profesionales y tengan la accesibilidad al crecimiento.
+          </p>
+          <p>
+            El objetivo de <b>GUIAM</b> es formar personas con valores a través de la música trayendo armonía y crecimiento
+            integral.
           </p>
           <div>
-            <a href="">
-              about More
-            </a>
+
+      
           </div>
         </div>
       </div>
     </div>
 
   </section>
-
   <!-- end about section -->
 
+  <section class="p-5">
+    <div class="container">
+      <div class="heading_container">
+
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-sm-12 align-items-center shape">
+          <img class="instructor-img" src="images/jezreel.jpg"
+            alt="">
+        </div>
+        <div class="col-lg-6 col-sm-12 align-self-center">
+          <h5 style="font-weight: bold;">
+            Lic. Jezreel Moreno
+          </h5>
+         <p>Fundador de GUIAM</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- info section -->
   <section class="info_section ">

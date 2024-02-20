@@ -4,6 +4,12 @@ body {
   background-color: #ffffff;
 }
 
+.instructor-img{
+  width: 100%; 
+  border-radius: 50%; 
+  border: 7px solid #E1F3FD;
+}
+
 .pricing1 .font-weight-medium {
   font-weight: 500;
 }
@@ -668,12 +674,13 @@ a:focus {
 
 .about_section .box img {
   width: 100%;
+  height: 380px;
+  object-fit: cover;
 }
 
 .about_section .box .img-box {
   position: relative;
-  width: 250px;
-  margin: 50px 0;
+  width: 450px;
 }
 
 .about_section .box .img-box .about_img-bg {
@@ -719,7 +726,7 @@ a:focus {
 
 .about_section .box .detail-box {
   margin-top: 35px;
-  text-align: center;
+ /* text-align: center;*/
 }
 
 .about_section .box .detail-box a {
