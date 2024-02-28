@@ -3,6 +3,27 @@
   * Copyright 2011-2019 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
+const buttons = document.querySelectorAll(".card-buttons button");
+const sections = document.querySelectorAll(".card-section");
+const card = document.querySelector(".card");
+
+const handleButtonClick = e => {
+  const targetSection = e.target.getAttribute("data-section");
+  const section = document.querySelector(targetSection);
+  targetSection !== "#about" ?
+  card.classList.add("is-active") :
+  card.classList.remove("is-active");
+  card.setAttribute("data-state", targetSection);
+  sections.forEach(s => s.classList.remove("is-active"));
+  buttons.forEach(b => b.classList.remove("is-active"));
+  e.target.classList.add("is-active");
+  section.classList.add("is-active");
+};
+
+buttons.forEach(btn => {
+  btn.addEventListener("click", handleButtonClick);
+});
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery'), require('popper.js')) :
     typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'popper.js'], factory) :
